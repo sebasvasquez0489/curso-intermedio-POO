@@ -67,5 +67,6 @@ Object.seal(sebastian);
 //   configurable: false,
 // });
 
-//Object.seal(obj) se usa para evitar borrar propiedades
-//Object.freeze(obj) se usa para evitar borrar y editar una propiedad
+//Object.seal(obj) -- Se usa para evitar borrar propiedades
+//Object.freeze(obj) -- Se usa para evitar borrar y editar una propiedad
+//Object.isSealed(obj) -- Podemos comprobar si todas las propiedades de un objeto están bloqueadas a que sean eliminadas.
